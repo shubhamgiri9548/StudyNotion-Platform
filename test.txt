@@ -1,0 +1,5 @@
+ "server": "cd server && npm run dev",
+    "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
+
+
+# REACT_APP_BASE_URL= http://localhost:4000/api/v1
