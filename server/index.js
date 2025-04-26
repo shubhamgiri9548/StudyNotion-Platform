@@ -51,6 +51,10 @@ app.get("/", (req , res) => {
     })
 });
 
+app.get("/api/test", (req, res) => {
+    res.send("Backend is working!");
+  });
+
 app.listen(PORT, () => {
     console.log(`APP is running at ${PORT}`);
 })
