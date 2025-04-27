@@ -87,20 +87,23 @@ MongoDB is used as the primary database, offering flexibility and scalability fo
 - **Instructor Schema**: Stores instructor details (name, email, courses).
 - **Course Schema**: Stores course details (name, description, media).
 
-## Architecture Diagram
-
-![Architecture Diagram](./path_to_architecture_image.png)
-
-## API Design
-
-The back-end exposes several RESTful API endpoints, including:
-- User Authentication (`POST /auth/signup`, `POST /auth/login`)
-- Course Management (`GET /courses`, `POST /courses`, `PUT /courses/:id`)
-- Payment (`POST /payment/checkout`)
-- Media Management (`POST /media/upload`)
-
 ## Installation
 
-1. Clone the repository:
+To get started with the project, follow these steps:
+
+1. **Clone the repository**:
+
+   Open your terminal and clone the repository:
+
    ```bash
-   git clone https://github.com/username/repo.git
+   git clone https://github.com/shubhamgiri9548/StudyNotion-Platform.git
+2 Navigate to the project directory:
+
+ cd StudyNotion-Platform
+
+3 npm install
+
+4 npm start
+
+5 Access the app:
+After the server starts, you can visit the frontend at http://localhost:3000 and start interacting with the platform.
