@@ -6,9 +6,9 @@ Welcome to **StudyNotion**, a fully functional **EdTech platform** designed for 
 
 ## Screenshots
 
-![Home Page](./images/first.png)  
-![Course List](./images/second.png)  
-![Course Content](./images/third.png)
+![Home Page](./Images/first.png)  
+![Course List](./Images/second.png)  
+![Course Content](./Images/third.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
