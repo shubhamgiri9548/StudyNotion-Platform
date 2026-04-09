@@ -14,7 +14,7 @@ const mailSender = async (email , title , body) => {
       })
       
       let info = await transporter.sendMail({
-        from: `regards ${process.env.EMAIL_USER}  || study notion ` ,  // sender address
+        from: `regards ${process.env.MAIL_USER}  || study notion ` ,  // sender address
         to: `${email}`,
         subject: `${title}`,
         html:  `${body}`   

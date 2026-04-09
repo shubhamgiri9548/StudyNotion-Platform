@@ -209,7 +209,7 @@ const enrollStudent = async ( res ,  userId , courses) => {
                  )
 
             );
-            console.log("emailResponse",emailResponse);
+            //console.log("emailResponse",emailResponse);
         
         } catch(error) {
             console.log(error);

@@ -4,8 +4,6 @@ const User = require("../models/User");
 
 
 
-
-
 // auth  ( authentication middleware )
 exports.auth  = async (req , res , next) => {
         

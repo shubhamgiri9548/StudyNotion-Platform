@@ -35,7 +35,7 @@ exports.sendOTP  = async (req , res) =>  {
         lowerCaseAlphabets : false, 
         specialChars : false,
      });
-     console.log("OTP generated : ",  otp);
+     //console.log("OTP generated : ",  otp);
      
      // check  otp is unique or not  
      let result  = await OTP.findOne({otp:otp});
@@ -90,7 +90,6 @@ exports.signup = async (req , res) =>  {
             message: "all fields are required",
         })
         
-
      }
 
      // match the password   

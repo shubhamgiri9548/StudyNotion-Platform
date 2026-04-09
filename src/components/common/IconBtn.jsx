@@ -14,8 +14,8 @@ export default function IconBtn({
   return (
     <button
       disabled={disabled}
-      onClick={onclick}
-      type={type}
+      onClick={onclick}   
+      type={type}  
       className={`${baseStyles} ${outline ? outlineStyles : filledStyles} ${customClasses}`}
     >
       {children ? (

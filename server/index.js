@@ -21,12 +21,18 @@ database.connect();
 //middlewares
 app.use(express.json());
 app.use(cookieParser());
+
 app.use(
     cors({
         origin: "https://study-notion-platform-three.vercel.app",
         credentials: true,
     })
 )
+
+// const allowedOrigins = [
+//   "http://localhost:3000",   // for local development
+// ];
+
 
 app.use(
     fileUpload({

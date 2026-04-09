@@ -26,7 +26,7 @@ exports.resetPasswordToken = async (req , res) => {
       // generate token 
       const token  = crypto.randomUUID();
 
-      // update user by adding token and expiring time 
+      // update user by adding token and expiring time  
       const updatedDetails   = await User.findOneAndUpdate (
                                             {email: email},
                                             {
@@ -38,6 +38,7 @@ exports.resetPasswordToken = async (req , res) => {
       // creaet url 
       const frontendUrl = process.env.FRONTEND_URL;
       const url = `${frontendUrl}/update-password/${token}`;
+      //console.log(url);
 
       // send mail containg the url 
       await mailSender(email,  "Password Resent Link", `Password Reset Link: ${url}`,

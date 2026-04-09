@@ -32,7 +32,7 @@ import Instructor from "./components/cores/Dashboard/InstructorDashboard/Instruc
 
 
 function App() {
-     
+        
   const {user} = useSelector((state) => state.profile);
 
   return (
@@ -121,7 +121,7 @@ function App() {
                   </>
                 )
                 }
-              
+                 
                 </Route>
                
 
