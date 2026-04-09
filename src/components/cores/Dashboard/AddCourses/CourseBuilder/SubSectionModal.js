@@ -1,5 +1,4 @@
 
-import React from 'react'
 import { useEffect, useState } from "react"
 import { useForm } from "react-hook-form"
 import { toast } from "react-hot-toast"

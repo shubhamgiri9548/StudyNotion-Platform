@@ -10,10 +10,10 @@ const RenderCartCourses = () => {
     const {cart} = useSelector((state) => state.cart);
     const dispatch = useDispatch();
 
-    const getRating = (course) => {
-        const count = GetAvgRating(course?.courseDetails.ratingAndReviews);
-        return count;
-      }
+    // const getRating = (course) => {
+    //     const count = GetAvgRating(course?.courseDetails.ratingAndReviews);
+    //     return count;
+    //   }
 
   return (
     <div className="flex flex-1 flex-col">

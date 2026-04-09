@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useState } from "react"
 import { useForm } from "react-hook-form"
 import { toast } from "react-hot-toast"
@@ -13,7 +13,7 @@ import NestedView from "./NestedView"
 
 const CourseBuilderForm = () => {
   const {
-    register, setValue, getValues, handleSubmit, formState: {errors}
+    register, setValue , handleSubmit, formState: {errors}
   } =  useForm();
 
   const {course} = useSelector((state)=> state.course)
